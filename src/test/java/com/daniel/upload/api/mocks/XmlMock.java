@@ -1,0 +1,34 @@
+package com.daniel.upload.api.mocks;
+
+public final class XmlMock {
+	
+	private XmlMock() {}
+	
+	public static String getXmlMock() {
+		
+		return "<agentes versao=\"1.0\"><agente><codigo>1</codigo><data>2000-03-14T00:00:00.000+00:00</data><regiao sigla=\"SE\"><geracao>"
+				+ "<valor>1.864</valor><valor>1.864</valor><valor>1.864</valor><valor>1.864</valor><valor>1.864</valor>"
+				+ "<valor>1.864</valor><valor>1.864</valor></geracao><compra><valor>1.19</valor><valor>1.19</valor>"
+				+ "<valor>1.19</valor><valor>1.19</valor><valor>1.19</valor><valor>1.19</valor><valor>1.19</valor>"
+				+ "</compra><precoMedio><valor>1.593</valor><valor>1.593</valor><valor>1.593</valor>"
+				+ "<valor>1.593</valor><valor>1.593</valor><valor>1.593</valor><valor>1.593</valor>"
+				+ "</precoMedio></regiao><regiao sigla=\"S\"><geracao><valor>1.513</valor><valor>1.513</valor>"
+				+ "<valor>1.513</valor><valor>1.513</valor><valor>1.513</valor><valor>1.513</valor>"
+				+ "<valor>1.513</valor></geracao><compra><valor>1.27</valor><valor>1.27</valor><valor>1.27</valor>"
+				+ "<valor>1.27</valor><valor>1.27</valor><valor>1.27</valor><valor>1.27</valor></compra><precoMedio>"
+				+ "<valor>1.512</valor><valor>1.512</valor><valor>1.512</valor><valor>1.512</valor><valor>1.512</valor>"
+				+ "<valor>1.512</valor><valor>1.512</valor></precoMedio></regiao><regiao sigla=\"NE\"><geracao>"
+				+ "<valor>1.463</valor><valor>1.463</valor><valor>1.463</valor><valor>1.463</valor><valor>1.463</valor>"
+				+ "<valor>1.463</valor><valor>1.463</valor></geracao><compra><valor>1.936</valor><valor>1.936</valor>"
+				+ "<valor>1.936</valor><valor>1.936</valor><valor>1.936</valor><valor>1.936</valor><valor>1.936</valor>"
+				+ "</compra><precoMedio><valor>1.343</valor><valor>1.343</valor><valor>1.343</valor>"
+				+ "<valor>1.343</valor><valor>1.343</valor><valor>1.343</valor><valor>1.343</valor></precoMedio>"
+				+ "</regiao><regiao sigla=\"N\"><geracao><valor>1.707</valor><valor>1.707</valor><valor>1.707</valor>"
+				+ "<valor>1.707</valor><valor>1.707</valor><valor>1.707</valor><valor>1.707</valor></geracao>"
+				+ "<compra><valor>1.141</valor><valor>1.141</valor><valor>1.141</valor><valor>1.141</valor>"
+				+ "<valor>1.141</valor><valor>1.141</valor><valor>1.141</valor></compra><precoMedio>"
+				+ "<valor>1.76</valor><valor>1.76</valor><valor>1.76</valor><valor>1.76</valor><valor>1.76</valor>"
+				+ "<valor>1.76</valor><valor>1.76</valor></precoMedio></regiao></agente></agentes>";		
+	}
+
+}
